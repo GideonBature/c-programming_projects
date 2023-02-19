@@ -7,5 +7,18 @@
 
 int main(void)
 {
+	char min;
+	char max;
 
+	printf("Enter Range (Lower, Higher)\n");
+
+	scanf("%c, %c", &min, &max);
+
+	while (min <= max)
+	{
+		putchar(min);
+		min++;
+	}
+	putchar('\n');
+	return (0);
 }
